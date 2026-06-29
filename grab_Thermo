@@ -1,0 +1,2 @@
+#freq is a frequency file for the post-optimized structure for TSFF, grab thermo, keep first column, as it is the electronic energy then use this for the post-opt structures for the electronic energies
+for i in freq.log ; do grabThermo.py $i -csv comma >> [name of file].csv ; done
