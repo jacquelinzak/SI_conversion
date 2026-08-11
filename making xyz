@@ -1,0 +1,1 @@
+for i in *.log* ; do printXYZ.py $i -o ${i%.log}.xyz ; done
