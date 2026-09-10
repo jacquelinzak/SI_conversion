@@ -1,0 +1,1 @@
+for i in *freq*.log ; do printXYZ.py -o ${i%.log}.xyz $i  ; done
