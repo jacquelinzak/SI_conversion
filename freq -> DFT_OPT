@@ -1,0 +1,1 @@
+sed -i 's/freq/_DFT_optimized/g' *xyz*
